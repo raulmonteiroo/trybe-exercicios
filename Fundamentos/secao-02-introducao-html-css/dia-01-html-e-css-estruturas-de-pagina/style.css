@@ -1,0 +1,50 @@
+img {
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.nome {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+
+.navigation {
+  display: flex;
+}
+
+.icones {
+  width: 30px;
+  height: 30px;
+}
+
+.navigation a{
+  text-decoration: none;
+  font-size: 16px;
+  color: aliceblue;
+  display: block;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.navigation p{
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.navigation src{
+  text-align: center;
+}
+
+.navigation :hover{
+  transform: scale(1.05)
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  margin: 30px;
+}
